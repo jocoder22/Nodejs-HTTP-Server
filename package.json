@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "underscore": "1.8.3"
+    "underscore": "1.8.3",
+    "express": "4.14.0"
   }
 }
