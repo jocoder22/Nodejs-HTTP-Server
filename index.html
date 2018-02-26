@@ -13,9 +13,13 @@
       }
 
     p {
-      font-size: calc(8px + (25 - 8) * ((100vw - 300px)/(1600 - 300)));
+      /* font-size: calc(6px + (25 - 6) * ((100vw - 200px)/(1600 - 200))); */
       font-weight: bold;
       padding: 20px;
+    }
+
+    .p4 {
+      font-size: calc(10px + 1.5vw);
     }
 
       .div1 {
@@ -23,16 +27,25 @@
         width: 100%;
         display: flex;
         flex-flow: row wrap;
+        text-align: center;
       }
 
       .box1 {
-        width: calc(100% / 3);
+        --width: calc(100% / 3);
+        width: var(--width);
         height: 100% ;
+        /* font-size: calc(6px + (25 - 6) * (((100vw - var(--width)))/(1600 - var(--width)))); */
+        /* font-size: calc(10px + 0.5vw); */
+        font-size: calc(6px + 0.8vw);
       }
 
       .box2 {
         width: calc(100% / 2);
         height: 100%;
+      }
+
+      .box2 > p {
+          font-size: calc(6px + (25 - 6) * ((100vw - 200px)/(1600 - 200)));
       }
     </style>
   </head>
@@ -49,7 +62,7 @@
       </div>
     </div>
     <div class="div1" style="background-color:orange">
-      <p>Nunc tristique purus at leo efficitur, nec feugiat justo finibus. Maecenas consectetur euismod sapien non hendrerit. Sed sodales at nibh a lacinia. Duis porta et tortor a semper. Fusce eros orci, molestie eu aliquam in, scelerisque eu libero. Nam ut lacus non arcu lacinia dapibus eget non lacus. Nam faucibus purus metus, et elementum eros pharetra quis. Aenean vel purus in sapien pulvinar condimentum. Aliquam non tellus eget neque dictum interdum. Nullam vel libero a odio bibendum imperdiet.</p>
+      <p class="p4">Nunc tristique purus at leo efficitur, nec feugiat justo finibus. Maecenas consectetur euismod sapien non hendrerit. Sed sodales at nibh a lacinia. Duis porta et tortor a semper. Fusce eros orci, molestie eu aliquam in, scelerisque eu libero. Nam ut lacus non arcu lacinia dapibus eget non lacus. Nam faucibus purus metus, et elementum eros pharetra quis. Aenean vel purus in sapien pulvinar condimentum. Aliquam non tellus eget neque dictum interdum. Nullam vel libero a odio bibendum imperdiet.</p>
     </div>
     <div class="div1">
       <div class="box2" style="background-color:green">
