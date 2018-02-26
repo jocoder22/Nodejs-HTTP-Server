@@ -1,0 +1,24 @@
+{
+  "name": "Nodejs HTTP Server",
+  "version": "1.0.0",
+  "description": "Simple Node.js HTTP Server",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jocoder22/Nodejs-HTTP-Server.git"
+  },
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node server.js"
+  },
+  "author": "Okechukwu Okigbo <okigbookey@gmail.com> ",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "debug": "^2.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "underscore": "1.8.3"
+  }
+}
