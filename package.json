@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "mocha tests",
-    "start": "node server.js"
+    "start": "node server.js",
+    "debug": "node --debug --inspect=9292 --debug-brk server2.js"
   },
   "author": "Okechukwu Okigbo <okigbookey@gmail.com> ",
   "license": "ISC",
@@ -20,6 +21,7 @@
   "dependencies": {
     "lodash": "^4.17.5",
     "underscore": "1.8.3",
-    "express": "4.14.0"
+    "express": "4.14.0",
+    "pug": "2.0.0=beta6"
   }
 }
