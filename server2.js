@@ -7,10 +7,7 @@ const webpage = fs.readFileSync('index.html');
 
 app.get('/', (req, res) => {
   console.log(`The server is working well!`);
-  console.log(req);
-  console.log(res);
-  res.setHeader('X-Powered-by', 'Express and Node.js');
-  res.statusCode = 500;
+  console.log(`The status code is ${res.statusCode}`);
   res.write(webpage);
   res.end();
 });
