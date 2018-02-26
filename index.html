@@ -15,7 +15,7 @@
     p {
       /* font-size: calc(6px + (25 - 6) * ((100vw - 200px)/(1600 - 200))); */
       font-weight: bold;
-      padding: 20px;
+      margin: 10px;
     }
 
     .p4 {
@@ -34,9 +34,10 @@
         --width: calc(100% / 3);
         width: var(--width);
         height: 100% ;
-        /* font-size: calc(6px + (25 - 6) * (((100vw - var(--width)))/(1600 - var(--width)))); */
-        /* font-size: calc(10px + 0.5vw); */
-        font-size: calc(6px + 0.8vw);
+      }
+
+      .box1 > p {
+        font-size: calc(6px + 1.2vw);
       }
 
       .box2 {
@@ -46,6 +47,7 @@
 
       .box2 > p {
           font-size: calc(6px + (25 - 6) * ((100vw - 200px)/(1600 - 200)));
+
       }
     </style>
   </head>
