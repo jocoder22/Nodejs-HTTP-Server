@@ -8,7 +8,7 @@ body, html {
 p {
 /* font-size: calc(6px + (25 - 6) * ((100vw - 200px)/(1600 - 200))); */
 font-weight: bold;
-margin: 20px;
+margin: 30px;
 }
 
 .p4 {
