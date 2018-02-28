@@ -7,15 +7,14 @@ app.set('view engine', 'pug');
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', {title:'PubTemplate'});
 });
 
 
-app.get('/Layout', (req, res) => {
+app.get('/extend', (req, res) => {
   console.log(`The server is working well!`);
   console.log(`The status code is ${res.statusCode}`);
-  res.render('use_layout', {title: 'Uses Layout',
-    message: 'From the server'});
+  res.render('extend', {title: 'ExtendTemplate'});
 });
 
 // const Boxes = require('./routes/Boxes.js');

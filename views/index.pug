@@ -1,8 +1,9 @@
 html
   head
-    title Pug Template
+    title= title
     style
       include style.css
+      block style
   body
     div(class="div1")
       div(class="box1" style="background-color:blue")
