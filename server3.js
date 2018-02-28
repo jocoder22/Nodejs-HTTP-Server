@@ -17,7 +17,8 @@ app.get('/extend', (req, res) => {
   res.render('extend', {title: 'ExtendTemplate'});
 });
 
-// const Boxes = require('./routes/Boxes.js');
-// app.use('/Boxes', Boxes);
+
+const Boxes1 = require('./routes/Boxes.js');
+app.use('/Boxes', Boxes1);
 
 app.listen(8080);
