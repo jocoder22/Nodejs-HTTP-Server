@@ -1,0 +1,16 @@
+html
+  head
+    title= title
+    style
+      block style
+      include style.css
+  body
+    header(class="div1")
+        h1 Server Oauthentication
+    div(class="div1")
+        ul
+            li: a(href='/') Home Page
+            li: a(href='/profile') My Profile
+            li: a(href='/photo') My Photos
+
+    block content
