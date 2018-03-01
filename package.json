@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Simple Node.js HTTP Server",
+  "description": "Simple Nodejs HTTP Server",
   "main": "server.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha tests",
-    "start": "node server.js",
+    "start": "node server3.js",
     "debug": "node --debug --inspect=9292 --debug-brk server2.js"
   },
   "author": "Okechukwu Okigbo <okigbookey@gmail.com> ",
