@@ -17,3 +17,4 @@ Installed software, libraries and dependencies includes :
 - [npm](https://www.npmjs.com/)
 - [pug](https://pugjs.org/api/getting-started.html)
 - [express](https://expressjs.com/)
+- [passport](http://www.passportjs.org/)
