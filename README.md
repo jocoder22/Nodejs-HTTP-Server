@@ -12,7 +12,8 @@ Installed software, libraries and dependencies includes :
 5. body-parser
 6. passport
 7. passport-local
-# Source
+# Resources
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 - [pug](https://pugjs.org/api/getting-started.html)
+- [express](https://expressjs.com/)
