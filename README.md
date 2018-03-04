@@ -1,7 +1,7 @@
 ## Nodejs Server
 Node.js HTTP web server. 
 # Introduction
-This is a web server built using Node.js HTTP, express, pug, passport and other libraries (listed below).
+This is a web server built using Node.js HTTP, express, pug, passport and other libraries (listed below). Server authenitication and authorization is implemented using passport and passport-local.
 # Operation
 # Installed Software
 Installed software, libraries and dependencies includes :
