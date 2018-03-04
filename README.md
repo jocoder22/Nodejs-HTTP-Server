@@ -1,6 +1,7 @@
 ## Nodejs Server
-This is a web server using Node.js HTTP. 
+Node.js HTTP web server. 
 # Introduction
+This is a web server built using Node.js HTTP.
 # Operation
 # Installed Software
 Installed software, libraries and dependencies includes :
