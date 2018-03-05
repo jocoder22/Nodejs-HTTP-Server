@@ -3,6 +3,8 @@ Node.js HTTP web server.
 # Introduction
 This is a web server built using Node.js HTTP, express, pug, passport and other libraries (listed below). Server authenitication and authorization is implemented using passport and passport-local.
 # Operation
+open the index.html on local machine to start the app.
+
 # Installed Software
 Installed software, libraries and dependencies includes :
 1. Node.js
@@ -13,6 +15,7 @@ Installed software, libraries and dependencies includes :
 5. body-parser
 6. passport
 7. passport-local
+
 # Resources
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
